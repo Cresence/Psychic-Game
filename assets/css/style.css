@@ -1,0 +1,34 @@
+/* Note to self, look into changing strings or object without javascript influence */
+p {
+    text-align: center;
+    font-weight: 700;
+}
+#game-start {
+    margin-left: 35%;
+    padding: 7%;
+    width: 250px;
+    outline-style: ridge;
+    font-size: 25px;
+    /* animation: blinkingText 2s infinite; */
+}
+/* @keyframes blinkingText {
+    0%{ color: #000; }
+    49%{color: transparent;}
+    50%{color: transparent;}
+    99%{color: transparent;}
+    100% {color: #000000;}
+} */
+.setbox {
+    float: left;
+    width: 100%;
+}
+#triangle,
+#square,
+#circle {
+    float: left;
+    max-width: 33%;
+    width: 200px;
+    height: 200px;
+    margin-left: 15%;
+    margin-top: 7%;    ;
+}
